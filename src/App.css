@@ -1,38 +1,38 @@
+body{
+  background-color: #ddd;
+}
 .App {
   text-align: center;
+  /* margin-top: 50px; */
+  margin-left: 20vw;
+  margin-right: 20vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  color: rgb(10, 14, 14);
+  background-image: url("https://img.freepik.com/free-photo/digital-art-young-students-attending-school-education_23-2151065233.jpg?t=st=1710152354~exp=1710155954~hmac=e670d5b272622f9047a234066c5ba1502b65e8ed1c78cf0529ec3df9f4733fd9&w=740");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input[type="text"],
+input[type="number"] {
+  margin: 5px;
+  padding: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button {
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button:hover {
+  background-color: #ddd;
 }
 
-.App-link {
-  color: #61dafb;
+div > div {
+  margin-top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+span {
+  margin-right: 10px;
 }
